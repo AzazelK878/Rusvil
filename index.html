@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Website Alif</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" />
+    <link rel="stylesheet" href="index.css" />
+	<style>
+	.hamburger-menu {
+    display: block;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.bar {
+    width: 100%;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: all 0.3s ease;
+}
+
+/* Animasi hamburger menu saat di-klik */
+.hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+/* Tampilan navigasi yang muncul saat hamburger menu di-klik */
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation ul li {
+    margin-bottom: 10px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #333;
+}
+  </style>
+  </head>
+  <body>
+    <div class="main-container">
+	<div class="hamburger-menu" onclick="toggleMenu()">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+<nav class="navigation">
+  <ul>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Skills</a></li>
+    <li><a href="#">Portofolio</a></li>
+    <li><a href="#">Testimonial</a></li>
+  </ul>
+</nav>
+      <div class="ellipse"></div>
+      <div class="ellipse-1"></div>
+      <div class="flex-row">
+        <div class="rectangle">
+          <span class="download-cv">Download CV</span>
+        </div>
+        <span class="design">Design</span>
+        <div class="ellipse-2"></div>
+        <div class="vector"></div>
+        <div class="ellipse-3"></div>
+        <div class="ellipse-4"></div>
+        <div class="frame">
+      </div>
+      <div class="flex-row-cc">
+        <div class="ellipse-5"></div>
+        <div class="ellipse-6"></div>
+      </div>
+      <div class="ellipse-7"></div>
+      <div class="ellipse-8"></div>
+      <div class="ellipse-9"></div>
+      <div class="ellipse-a"></div>
+      <div class="flex-row-afea">
+        <div class="ellipse-b"></div>
+        <div class="group"><div class="rectangle-c"></div></div>
+        <div class="ellipse-d"></div>
+        <span class="follow-me-on">Follow me on:</span>
+        <div class="creative-design-experience">
+          <span class="i-have">I have </span
+          ><span class="creative">Creative<br /></span
+          ><span class="design-e">Design</span
+          ><span class="experience"> Experience</span>
+        </div>
+        <div class="line"></div>
+        <span class="alif-raya"
+          >I'm Alif Raya, a UI/UX designer with a passion for crafting beautiful
+          and impactful products. My background in information engineering, with
+          fluency in code and software development, fuels my design process. I
+          believe design goes beyond aesthetics; it's about unlocking value for
+          users through in-depth research and crafting intuitive
+          experiences.</span
+        >
+        <div class="facebook"></div>
+        <div class="instagram"></div>
+        <div class="linkedin-icon"><div class="group-f"></div></div>
+        <div class="rectangle-10">
+          <span class="contact-me">Contact Me</span>
+          <div class="ellipse-11"></div>
+        </div>
+        <div class="frame-12"></div>
+        <span class="view-portfolio">View Portfolio</span>
+        <div class="ellipse-13"></div>
+      </div>
+      <div class="ellipse-14"></div>
+      <div class="ellipse-15"></div>
+      <div class="ellipse-16"></div>
+      <div class="flex-row-b">
+        <div class="rectangle-17"></div>
+        <div class="rectangle-18"></div>
+        <div class="rectangle-19"></div>
+      </div>
+      <div class="flex-row-ff">
+        <div class="rectangle-1a"></div>
+        <div class="rectangle-1b"></div>
+      </div>
+      <div class="flex-row-e">
+        <div class="rectangle-1c"></div>
+        <div class="rectangle-1d"></div>
+      </div>
+      <div class="flex-row-1e">
+        <div class="rectangle-1f"></div>
+        <div class="rectangle-20"></div>
+        <div class="rectangle-21"></div>
+      </div>
+      <div class="flex-row-b-22">
+        <div class="rectangle-23"></div>
+        <div class="rectangle-24"></div>
+      </div>
+      <div class="flex-row-c">
+        <div class="rectangle-25"></div>
+        <div class="rectangle-26"></div>
+        <div class="rectangle-27"></div>
+      </div>
+      <div class="flex-row-f">
+        <div class="rectangle-28"></div>
+        <div class="rectangle-29"></div>
+      </div>
+      <div class="flex-row-aa">
+        <div class="rectangle-2a"></div>
+        <div class="rectangle-2b"></div>
+        <div class="rectangle-2c"></div>
+      </div>
+      <div class="flex-row-ab">
+        <div class="rectangle-2d"></div>
+        <div class="rectangle-2e"></div>
+      </div>
+      <div class="flex-row-c-2f">
+        <div class="rectangle-30"></div>
+        <div class="rectangle-31"></div>
+        <div class="rectangle-32"></div>
+      </div>
+      <div class="flex-row-bd">
+        <div class="rectangle-33"></div>
+        <div class="rectangle-34"></div>
+      </div>
+      <div class="flex-row-cef">
+        <div class="rectangle-35"></div>
+        <div class="rectangle-36"></div>
+        <div class="rectangle-37"></div>
+      </div>
+      <div class="flex-row-c-38">
+        <div class="rectangle-39"></div>
+        <div class="rectangle-3a"></div>
+        <div class="rectangle-3b"></div>
+      </div>
+      <div class="flex-row-ddd">
+        <div class="rectangle-3c"></div>
+        <div class="rectangle-3d"></div>
+      </div>
+      <div class="flex-row-f-3e">
+        <div class="rectangle-3f"></div>
+        <div class="rectangle-40"></div>
+      </div>
+      <div class="flex-row-d">
+        <div class="rectangle-41"></div>
+        <div class="rectangle-42"></div>
+        <div class="rectangle-43"></div>
+      </div>
+      <div class="flex-row-44">
+        <div class="rectangle-45"></div>
+        <div class="rectangle-46"></div>
+        <div class="rectangle-47"></div>
+      </div>
+      <div class="flex-row-c-48">
+        <div class="rectangle-49"></div>
+        <div class="rectangle-4a"></div>
+      </div>
+      <div class="flex-row-dd">
+        <div class="rectangle-4b"></div>
+        <div class="rectangle-4c"></div>
+      </div>
+      <div class="flex-row-fa">
+        <div class="rectangle-4d"></div>
+        <div class="rectangle-4e"></div>
+        <div class="rectangle-4f"></div>
+      </div>
+      <div class="ellipse-50"></div>
+      <div class="flex-row-ec">
+        <div class="rectangle-51"></div>
+        <div class="rectangle-52"></div>
+        <div class="rectangle-53"></div>
+      </div>
+      <div class="flex-row-54">
+        <div class="rectangle-55"></div>
+        <div class="rectangle-56"></div>
+      </div>
+      <div class="flex-row-fd">
+        <div class="rectangle-57"></div>
+        <div class="rectangle-58"></div>
+        <div class="rectangle-59"></div>
+      </div>
+      <div class="flex-row-e-5a">
+        <div class="rectangle-5b"></div>
+        <div class="rectangle-5c"></div>
+      </div>
+      <div class="flex-row-f-5d">
+        <div class="rectangle-5e"></div>
+        <div class="rectangle-5f"></div>
+        <div class="rectangle-60"></div>
+      </div>
+      <div class="flex-row-fe">
+        <div class="rectangle-61"></div>
+        <div class="rectangle-62"></div>
+      </div>
+      <div class="flex-row-d-63">
+        <div class="rectangle-64"></div>
+        <div class="rectangle-65"></div>
+        <div class="rectangle-66"></div>
+      </div>
+      <div class="flex-row-f-67">
+        <div class="rectangle-68"></div>
+        <div class="rectangle-69"></div>
+      </div>
+      <div class="ellipse-6a"></div>
+      <div class="flex-row-cb">
+        <div class="rectangle-6b"></div>
+        <div class="rectangle-6c"></div>
+      </div>
+      <div class="flex-row-ac">
+        <div class="rectangle-6d"></div>
+        <div class="rectangle-6e"></div>
+        <div class="rectangle-6f"></div>
+      </div>
+      <div class="flex-row-70">
+        <div class="rectangle-71"></div>
+        <div class="rectangle-72"></div>
+        <div class="rectangle-73"></div>
+      </div>
+      <div class="flex-row-74">
+        <div class="rectangle-75"></div>
+        <div class="rectangle-76"></div>
+      </div>
+      <div class="flex-row-77">
+        <div class="rectangle-78"></div>
+        <div class="rectangle-79"></div>
+        <div class="rectangle-7a"></div>
+      </div>
+      <div class="flex-row-ccae">
+        <div class="rectangle-7b"></div>
+        <div class="rectangle-7c"></div>
+      </div>
+      <div class="flex-row-ed">
+        <div class="rectangle-7d"></div>
+        <div class="rectangle-7e"></div>
+        <div class="rectangle-7f"></div>
+      </div>
+      <div class="flex-row-b-80">
+        <div class="rectangle-81"></div>
+        <div class="rectangle-82"></div>
+      </div>
+      <div class="flex-row-cbda">
+        <div class="rectangle-83"></div>
+        <div class="rectangle-84"></div>
+        <div class="rectangle-85"></div>
+      </div>
+      <div class="flex-row-ae">
+        <div class="rectangle-86"></div>
+        <div class="rectangle-87"></div>
+      </div>
+      <div class="flex-row-bf">
+        <div class="rectangle-88"></div>
+        <div class="rectangle-89"></div>
+        <div class="rectangle-8a"></div>
+      </div>
+      <div class="flex-row-d-8b">
+        <div class="rectangle-8c"></div>
+        <div class="rectangle-8d"></div>
+      </div>
+      <div class="flex-row-baf">
+        <div class="group-8e"></div>
+        <div class="group-8f"></div>
+        <div class="group-90"></div>
+        <div class="ellipse-91"></div>
+        <div class="my-creative-works-latest-projects">
+          <span class="my-creative-works">My Creative Works<br /></span
+          ><span class="latest">Latest </span
+          ><span class="projects">Projects</span>
+        </div>
+        <span class="i-have-selected"
+          >I have selected and mentioned here some of my latest projects to
+          share with you.</span
+        >
+        <div class="rectangle-92"><span class="show-more">Show More</span></div>
+        <div class="group-93"></div>
+        <div class="arrow-right"></div>
+        <div class="arrow-right-94"></div>
+        <div class="rectangle-95"></div>
+        <div class="rectangle-96"></div>
+        <div class="group-97"></div>
+        <div class="rectangle-98"></div>
+        <div class="rectangle-99"></div>
+        <div class="rectangle-9a"></div>
+        <div class="rectangle-9b"></div>
+        <div class="rectangle-9c"></div>
+        <div class="rectangle-9d"></div>
+        <div class="rectangle-9e"></div>
+        <div class="rectangle-9f"></div>
+        <div class="rectangle-a0"></div>
+        <div class="rectangle-a1"></div>
+        <div class="rectangle-a2"></div>
+        <div class="rectangle-a3"></div>
+        <div class="rectangle-a4"></div>
+        <div class="rectangle-a5"></div>
+        <div class="rectangle-a6"></div>
+        <div class="rectangle-a7"></div>
+        <div class="rectangle-a8"></div>
+        <div class="rectangle-a9"></div>
+        <div class="rectangle-aa"></div>
+        <div class="rectangle-ab"></div>
+        <div class="rectangle-ac"></div>
+        <div class="rectangle-ad"></div>
+        <div class="rectangle-ae"></div>
+        <div class="rectangle-af"></div>
+        <div class="rectangle-b0"></div>
+        <div class="rectangle-b1"></div>
+        <div class="rectangle-b2"></div>
+        <div class="rectangle-b3"></div>
+        <div class="rectangle-b4"></div>
+        <div class="rectangle-b5"></div>
+        <div class="rectangle-b6"></div>
+        <div class="rectangle-b7"></div>
+        <div class="rectangle-b8"></div>
+        <div class="rectangle-b9"></div>
+        <div class="rectangle-ba"></div>
+      </div>
+      <div class="flex-row-b-bb">
+        <div class="rectangle-bc"></div>
+        <div class="rectangle-bd"></div>
+      </div>
+      <div class="flex-row-fb">
+        <div class="rectangle-be"></div>
+        <div class="rectangle-bf"></div>
+        <div class="rectangle-c0"></div>
+      </div>
+      <div class="flex-row-f-c1">
+        <div class="rectangle-c2"></div>
+        <div class="rectangle-c3"></div>
+      </div>
+      <div class="flex-row-f-c4">
+        <div class="rectangle-c5"></div>
+        <div class="rectangle-c6"></div>
+        <div class="rectangle-c7"></div>
+      </div>
+      <div class="flex-row-f-c8">
+        <div class="ellipse-c9"></div>
+        <button class="reviews">Reviews</button>
+        <div class="rectangle-ca"></div>
+        <div class="rectangle-cb"></div>
+        <div class="rectangle-cc"></div>
+        <div class="rectangle-cd"></div>
+        <div class="rectangle-ce"></div>
+      </div>
+      <div class="flex-row-cf">
+        <div class="our-customer-say">
+          <span class="our-customer-say-something"
+            >Our Customer Say <br />Something </span
+          ><span class="about-us">About Us</span>
+        </div>
+        <div class="regroup">
+          <div class="arrow-right-cf"></div>
+          <div class="arrow-right-d0"></div>
+        </div>
+      </div>
+      <div class="flex-row-bc">
+        <div class="card">
+          <div class="flex-row-f-d1">
+            <div class="star"></div>
+            <div class="star-d2"></div>
+            <div class="star-d3"></div>
+            <div class="star-d4"></div>
+            <div class="star-d5"></div>
+          </div>
+          <span class="business-marketing"
+            >We will also facilitate the business marketing of these products
+            with our SEO experts so that they become a ready to use website &
+            help sell product from company</span
+          >
+          <div class="flex-row-d6">
+            <div class="ellipse-d7"></div>
+            <span class="amir-uddin">Amir Uddin</span
+            ><span class="ux-designer">UX Designer </span>
+          </div>
+        </div>
+        <div class="card-d8">
+          <div class="flex-row-e-d9">
+            <div class="star-da"></div>
+            <div class="star-db"></div>
+            <div class="star-dc"></div>
+            <div class="star-dd"></div>
+            <div class="star-de"></div>
+          </div>
+          <span class="business-marketing-df"
+            >We will also facilitate the business marketing of these products
+            with our SEO experts so that they become a ready to use website &
+            help sell product from company</span
+          >
+          <div class="flex-row-daee">
+            <div class="ellipse-e0"></div>
+            <span class="salim-ahmed">Salim Ahmed</span
+            ><span class="ui-designer">UI Designer </span>
+          </div>
+        </div>
+        <div class="card-e1">
+          <div class="flex-row-d-e2">
+            <div class="star-e3"></div>
+            <div class="star-e4"></div>
+            <div class="star-e5"></div>
+            <div class="star-e6"></div>
+            <div class="star-e7"></div>
+          </div>
+          <span class="business-marketing-e8"
+            >We will also facilitate the business marketing of these products
+            with our SEO experts so that they become a ready to use website &
+            help sell product from company</span
+          >
+          <div class="flex-row-d-e9">
+            <div class="ellipse-ea"></div>
+            <span class="guy-hawkins">Guy Hawkins</span
+            ><span class="ux-designer-eb">UX Designer </span>
+          </div>
+        </div>
+      </div>
+      <div class="flex-row-b-ec">
+        <div class="rectangle-ed"></div>
+        <div class="rectangle-ee"></div>
+        <div class="rectangle-ef"></div>
+      </div>
+      <div class="flex-row-f-f0">
+        <div class="rectangle-f1"></div>
+        <div class="rectangle-f2"></div>
+      </div>
+      <div class="flex-row-e-f3">
+        <div class="rectangle-f4"></div>
+        <div class="rectangle-f5"></div>
+      </div>
+      <div class="flex-row-f-f6">
+        <div class="rectangle-f7"></div>
+        <div class="rectangle-f8"></div>
+        <div class="rectangle-f9"></div>
+      </div>
+      <div class="flex-row-fa">
+        <div class="rectangle-fb"></div>
+        <div class="rectangle-fc"></div>
+      </div>
+      <div class="flex-row-f-fd">
+        <div class="rectangle-fe"></div>
+        <div class="rectangle-ff"></div>
+        <div class="rectangle-100"></div>
+      </div>
+      <div class="flex-row-c-101">
+        <div class="rectangle-102"></div>
+        <div class="rectangle-103"></div>
+      </div>
+      <div class="flex-row-bbd">
+        <div class="rectangle-104"></div>
+        <div class="rectangle-105"></div>
+        <div class="rectangle-106"></div>
+      </div>
+      <div class="flex-row-107">
+        <div class="rectangle-108"></div>
+        <div class="rectangle-109"></div>
+      </div>
+      <div class="flex-row-b-10a">
+        <div class="rectangle-10b"></div>
+        <div class="rectangle-10c"></div>
+        <div class="rectangle-10d"></div>
+      </div>
+      <div class="flex-row-10e">
+        <div class="rectangle-10f"></div>
+        <div class="rectangle-110"></div>
+        <div class="rectangle-111"></div>
+      </div>
+      <div class="flex-row-112">
+        <div class="rectangle-113"></div>
+        <div class="rectangle-114"></div>
+      </div>
+      <div class="flex-row-e-115">
+        <div class="rectangle-116"></div>
+        <div class="rectangle-117"></div>
+        <div class="rectangle-118"></div>
+      </div>
+      <div class="flex-row-a">
+        <div class="rectangle-119"></div>
+        <div class="rectangle-11a"></div>
+      </div>
+      <div class="flex-row-11b">
+        <div class="rectangle-11c"></div>
+        <div class="rectangle-11d"></div>
+        <div class="rectangle-11e"></div>
+      </div>
+      <div class="flex-row-f-11f">
+        <div class="rectangle-120"></div>
+        <div class="rectangle-121"></div>
+      </div>
+      <div class="ellipse-122"></div>
+      <div class="flex-row-123">
+        <div class="rectangle-124"></div>
+        <div class="rectangle-125"></div>
+      </div>
+      <div class="flex-row-126">
+        <div class="rectangle-127"></div>
+        <div class="rectangle-128"></div>
+        <div class="rectangle-129"></div>
+      </div>
+      <div class="flex-row-aa-12a">
+        <div class="rectangle-12b"></div>
+        <div class="rectangle-12c"></div>
+        <div class="rectangle-12d"></div>
+      </div>
+      <div class="flex-row-e-12e">
+        <div class="rectangle-12f"></div>
+        <div class="rectangle-130"></div>
+      </div>
+      <div class="ellipse-131"></div>
+      <div class="flex-row-ff-132">
+        <div class="lets-discuss-your-project">
+          <span class="lets-discuss-your">Let’s Discuss Your </span
+          ><span class="project">Project</span>
+        </div>
+        <div class="ellipse-133"></div>
+      </div>
+      <div class="flex-row-e-134">
+        <span class="lets-make-something-new"
+          >Let’s make something new, different and more meaningful or make thing
+          more visual or conceptual</span
+        >
+        <div class="different-and-more-meaningful"></div>
+      </div>
+      <div class="lets-make-thing-more-visual">
+    <div class="card-135">
+        <div class="rectangle-136">
+            <div class="frame-137">
+                <div class="vector-138"></div>
+            </div>
+        </div>
+        <div class="flex-column-ee">
+            <span class="call-me">Call me</span>
+            <span class="plus-6285887389898">+6285887389898</span>
+        </div>
+    </div>
+    <div class="card-139">
+        <input type="text" class="full-name" placeholder="Full name">
+    </div>
+    <div class="card-13a">
+        <input type="email" class="your-email" placeholder="Your email">
+    </div>
+    <div class="card-13b">
+        <input type="tel" class="phone-number" placeholder="Phone number">
+    </div>
+    <div class="card-13c">
+        <input type="text" class="budget" placeholder="Budget">
+</div>
+      </div>
+      <div class="flex-row-db">
+        <div class="card-13d">
+          <div class="rectangle-13e">
+            <div class="frame-13f"><div class="vector-140"></div></div>
+          </div>
+          <div class="flex-column-ab">
+            <span class="email-me">Email me</span
+            ><span class="text-29">azraelcreed9@gmail.com</span>
+          </div>
+        </div>
+         <div class="card-141">
+        <input type="text" class="message" placeholder="Message">
+		</div>
+        <div class="card-142">
+          <div class="group-143"></div>
+          <div class="flex-column-dfd">
+            <span class="address">Address</span
+            ><span class="tasik-jawa-barat">Tasik, Jawa barat, Indonesia.</span>
+          </div>
+        </div>
+      </div>
+      <div class="rectangle-144">
+        <span class="submit-message">Submit Message</span>
+      </div>
+      <div class="line-145"></div>
+      <div class="flex-row-f-146">
+        <div class="ellipse-147"></div>
+        <div class="ellipse-148"></div>
+        <div class="ellipse-149"></div>
+        <div class="instagram-14a"></div>
+        <span class="all-rights-reserved">@ 2024. All Rights Reserved</span
+        ><span class="designed-by-alif">Designed by Alif Raya</span>
+        <div class="facebook-14b"><div class="vector-14c"></div></div>
+        <div class="twitter"><div class="vector-14d"></div></div>
+        <div class="linkedin">
+          <div class="flex-column">
+            <div class="vector-14e"></div>
+            <div class="vector-14f"></div>
+          </div>
+          <div class="vector-150"></div>
+        </div>
+      </div>
+      <div class="flex-row-a-151">
+        <span class="plus-80">80+</span><span class="plus-200">200+</span
+        ><span class="plus-99">99+</span>
+      </div>
+      <div class="flex-row-afa">
+        <div class="line-152"></div>
+        <div class="line-153"></div>
+        <span class="satisfied-clients">Satisfied clients</span
+        ><span class="projects-completed">Projects completed</span
+        ><span class="reviews-given">Reviews given</span>
+      </div>
+      <div class="flex-row-c-154">
+        <div class="rectangle-155">
+          <div class="diamond-outline"></div>
+          <span class="visual-design">Visual Design</span
+          ><span class="create-user-interface"
+            >Create user interface design with<br />unique & modern ideas</span
+          >
+        </div>
+        <div class="ellipse-156"></div>
+        <div class="why-hire-me">
+          <span class="why-hire-me-157">Why Hire Me For Your <br /></span
+          ><span class="next">Next</span
+          ><span class="project-158"> Project?</span>
+        </div>
+        <div class="rectangle-159">
+          <div class="pulse-outline"></div>
+          <span class="design-prototype">Design Prototype</span>
+          <div class="create-advance-design">
+            <span class="create-advance-design-15a"
+              >Create advance design prototype</span
+            ><span class="with-figma-apps"> with Figma apps.</span>
+          </div>
+        </div>
+        <span class="ui-ux-designe"
+          >I’m specialist in UI/UX Designe. My passion is designing & solving
+          problems through user experience and research.</span
+        >
+      </div>
+      <div class="flex-row-15b">
+        <div class="rectangle-15c">
+          <div class="school-outline"></div>
+          <span class="ux-research">UX Research</span
+          ><span class="create-digital-user"
+            >Create digital user products with<br />updated ideas</span
+          >
+        </div>
+        <div class="ellipse-15d"></div>
+        <div class="rectangle-15e"><span class="hire-me">Hire Me</span></div>
+      </div>
+    </div>
+	<script src="functions.js"></script>
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.navigation');
+            menu.classList.toggle('show');
+        }
+    </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="functions.js"></script>
+<script>
+$(document).ready(function() {
+    $(".submit-message").click(function() {
+        var fullName = $(".full-name").val();
+        var email = $(".your-email").val();
+        var phoneNumber = $(".phone-number").val();
+        var message = $(".message").val();
+		if (fullName === "") {
+            alert("Please enter your full name.");
+            return false;
+        }
+        if (email === "") {
+            alert("Please enter your email.");
+            return false;
+        } else if (!validateEmail(email)) {
+            alert("Please enter a valid email address.");
+            return false;
+        }
+        if (phoneNumber === "") {
+            alert("Please enter your phone number.");
+            return false;
+        } else if (!validatePhoneNumber(phoneNumber)) {
+            alert("Please enter a valid phone number.");
+            return false;
+        }
+        if (message === "") {
+            alert("Please enter your message.");
+            return false;
+        }
+		 alert("Form submitted successfully!");
+    });
+	function validateEmail(email) {
+        var re = /\S+@\S+\.\S+/;
+        return re.test(email);
+    }
+	 function validatePhoneNumber(phoneNumber) {
+        var re = /^[0-9]{10,12}$/;
+        return re.test(phoneNumber);
+    }
+});
+</script>
+  </body>
+</html>
